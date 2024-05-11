@@ -79,6 +79,12 @@ nav {
     color: #000000;
     padding: 30px 50px;
 }
+
+nav a {
+    color: black; 
+    text-decoration: none; 
+}
+
 .nav-container {
 display: flex;
 justify-content: space-between;
@@ -86,8 +92,9 @@ justify-content: space-between;
 
 nav .left {
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 500;
 }
+
 
 nav .right {
     font-size: 18px;
@@ -258,6 +265,7 @@ display: block;
     background-color: black;
     color: white;
     justify-content: center;
+    padding-bottom: 7rem;
 }
 
 @media screen and (max-width: 771px) {

@@ -72,10 +72,10 @@ body {
   text-align: center;
 }
 
-/* 
-#typing-text {
-  font-family: 'Poppins', sans-serif;
-  /* Add any other desired styling */
+nav a {
+  color: black; /* Set color to black */
+  text-decoration: none; /* Remove underline */
+}
 
 .top-section {
   display: flex;

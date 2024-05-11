@@ -86,17 +86,19 @@ justify-content: space-between;
 
 nav .left {
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 nav .right {
     font-size: 18px;
 }
 
-.nav-links .right a{
-color: #fff  !important;
 
+nav a {
+    color: black; /* Set color to black */
+    text-decoration: none; /* Remove underline */
 }
+
 
 .nav-links.show {
 display: block;
