@@ -22,7 +22,7 @@
     <nav>
       <div class="nav-container">
         <div class="left">Joshua Lim</div>
-        <div class="right"><a href="/joshua_lim_resume.pdf" target="_blank">Resume</a></div>
+        <div class="right"><a href="joshua_lim_resume.pdf" target="_blank">Resume</a></div>
       </div>
     </nav>
     
@@ -48,31 +48,31 @@
       <hr>
       <div class="work-container">
         <div class="project-button-portion">
-          <a href="/uno-health/unohealth.html" class= "projects unohealth"> 
+          <a href="uno-health/unohealth.html" class= "projects unohealth"> 
             <div class="project-header">
               <h2>Uno Health</h2>
               <p class="project-para">Brand Project • Team-based • Figma</p>
             </div>
             <div>
-              <img class="project-img" src="/uno-health/uno-hero-homepage.png">
+              <img class="project-img" src="uno-health/uno-hero-homepage.png">
             </div>
           </a>
-          <a href="/cart/anthropos.html" class= "projects anthropos">
+          <a href="cart/anthropos.html" class= "projects anthropos">
             <div class="project-header">
               <h2>Perfume Website</h2>
               <p class="project-para">React • eCommerce</p>
             </div>
             <div>
-              <img class="project-img" src="/cart/perfume-website.png">
+              <img class="project-img" src="cart/perfume-website.png">
             </div>
           </a>
-          <a href="/skincarisma/skincarisma.html" class= "projects skincarisma"> 
+          <a href="skincarisma/skincarisma.html" class= "projects skincarisma"> 
             <div class="project-header">
               <h2>Skin Carisma Redesign</h2>
               <p class="project-para">Responsive Redesign • HTML/CSS</p>
             </div>
             <div>
-              <img class="project-img" src="/skincarisma/mac-skincarisma.png">
+              <img class="project-img" src="skincarisma/mac-skincarisma.png">
             </div>
           </a>
         </div>
@@ -87,43 +87,9 @@
       </div>
       <div class="contact-me-links-bottom">
           <a href="#" class="fa fa-facebook fa-2x"></a>
-          <a href="#" class="fa fa-twitter fa-2x"></a>
+          <a href="#" class="fa fa- fa-2x"></a>
       </div>
     </div>
-
-  <script>
-    const texts = [
-      "Making Funky Websites",
-      "Designing Awesome Interfaces",
-      "Building Creative Solutions"
-    ];
-
-    let index = 0;
-    const typingTextElement = document.getElementById("typing-text");
-
-    function typeText() {
-      const text = texts[index];
-      typingTextElement.innerHTML = ''; // Clear existing text
-      let charIndex = 0;
-      const typingInterval = setInterval(function() {
-        if (charIndex < text.length) {
-          typingTextElement.innerHTML += text.charAt(charIndex);
-          charIndex++;
-        } else {
-          clearInterval(typingInterval); // Stop typing when finished
-          setTimeout(typeNextText, 2000); // Move to next text after a delay
-        }
-      },80); // Typing speed
-    }
-
-    function typeNextText() {
-      index = (index + 1) % texts.length; // Move to the next text (cycle through texts)
-      typeText(); // Start typing the next text
-    }
-
-    // Start typing the first text
-    typeText();
-  </script>
  
 </body>
 </html>
