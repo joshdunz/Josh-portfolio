@@ -1,0 +1,287 @@
+.quattrocento-regular {
+    font-family: "Quattrocento", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.quattrocento-bold {
+font-family: "Quattrocento", serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+h1 {
+    font-family: 'Poppins', serif;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+  
+h2 {
+    font-family: 'Poppins', serif;
+    font-size: 27px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom:0;
+}
+h3 {
+    font-family: 'Poppins', serif;
+    font-size: 19px;
+    font-weight: 300;
+    text-align: left;
+    margin-bottom:0;
+    margin-top: 0.5em;
+}
+h4{
+    font-family: 'Poppins', serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 0.5em;
+
+}
+
+
+p {
+    font-family: "Poppins";
+    text-align: left;
+    font-weight: 300;
+    line-height: 30px;
+}
+body {
+    font-family: Poppins, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+nav {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 30px 50px;
+}
+.nav-container {
+display: flex;
+justify-content: space-between;
+}
+
+nav .left {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+nav .right {
+    font-size: 18px;
+}
+
+.nav-links .right a{
+color: #fff  !important;
+
+}
+
+.nav-links.show {
+display: block;
+}
+
+.top-section{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5rem;
+}
+
+.top-background{
+    width:80%;
+    height:auto;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.project-img{
+    padding-top: 7rem;
+    max-width: 70%;
+    height:auto;
+   
+}
+
+.summary-section{
+    display:flex;
+    justify-content: center;
+    align-content: space-around;
+    margin-bottom: 5rem;
+    /* align-content: center; */
+    
+}
+
+.project-summary{
+    margin-bottom: 2rem;
+}
+
+.project-name{
+    font-weight: 600;
+}
+
+.info-header{
+    font-weight: 600;
+}
+
+.summary{
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.summary.left{
+    width: 37rem;
+    margin: 0 3rem;
+}
+
+.objective-bloc{
+    display:flex;
+    flex-direction: row;
+}
+
+.bloc{
+    display:flex;
+    flex-direction: column;
+    width: 20rem;
+}
+
+
+.process-section{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: #ffffff;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+
+}
+
+.process-container{
+    display: flex;
+    justify-content: center;
+}
+
+.design-process{
+    display:flex;
+    flex-direction: column;
+    width:60rem;
+}
+
+.process-bloc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 55rem;
+}
+
+.bloc.process{
+    width: 25rem;
+    margin-top: 3rem;
+}
+
+.info-para{
+    color: #d1d1d1;
+}
+
+.feature1-section{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+
+}
+
+.feature{
+    width: 60rem;
+    padding-top: 4rem;
+}
+
+.feature-name{
+    width: 10rem;
+}
+.feature1-text-bloc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+.feature1{
+    width: 27rem;
+}
+
+.feature1.left{
+    padding-right: 2rem;
+}
+
+
+.demo-bloc.one{
+    background-color:#80A1f8 ;
+}
+
+.demo-bloc video{
+    padding-top: 3rem;
+    width: 60%;
+}
+
+.demo-bloc.two{
+    background-color:#112b6f ;
+}
+
+.feature2-section{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+}
+
+@media screen and (max-width: 771px) {
+    nav .container {
+      flex-direction: row;
+     
+    }
+  
+    .nav-links {
+      display: block;
+      padding: 10px 0;
+    }
+  
+    .nav-links.show {
+      display: none;
+    }
+
+    .summary-section{
+        flex-direction: column;
+        align-items: center;
+    }
+    .summary.right{
+        display: flex;
+        flex-direction: column;
+        max-width: 37rem;
+    }
+    .info-bloc{
+        display: flex;
+        flex-direction: row;
+    }
+  }

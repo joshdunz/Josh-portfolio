@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joshua Lim - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap');
+  </style>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  </style>
+  
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">;
+
+    
+</head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div class="left">Joshua Lim</div>
+        <div class="right"><a href="/Users/joshualim/Documents/CS1300/Josh-portfolio/joshua_lim_resume.pdf" target="_blank">Resume</a></div>
+      </div>
+    </nav>
+    
+
+    <div class="top-section">
+      <div class="top-section-content">
+        <h1>Hello! I'm Joshua Lim</h1>
+        <p class="top-section-para">I'm a front-end engineer with a passion 
+          for creating interactions that make you feel like an insider. 
+          I'm also interested in the beauty and personal care industry. 
+          Have fun browsing and feel free to reach out!
+          </p>
+      </div>
+        <!-- <p class="subtext" id="typing-text"></p> -->
+    </div>
+   
+
+  
+   
+
+    <div class ="section-header">
+      <p class="work-section-para">Featured Work</p>
+      <hr>
+      <div class="work-container">
+        <div class="project-button-portion">
+          <a href="/Users/joshualim/Documents/CS1300/Josh-portfolio/uno-health/unohealth.html" class= "projects unohealth"> 
+            <div class="project-header">
+              <h2>Uno Health</h2>
+              <p class="project-para">Brand Project • Team-based • Figma</p>
+            </div>
+            <div>
+              <img class="project-img" src="/Users/joshualim/Documents/CS1300/Josh-portfolio/uno-health/uno-hero-homepage.png">
+            </div>
+          </a>
+          <a href="/Users/joshualim/Documents/CS1300/Josh-portfolio/cart/anthropos.html" class= "projects anthropos">
+            <div class="project-header">
+              <h2>Perfume Website</h2>
+              <p class="project-para">React • eCommerce</p>
+            </div>
+            <div>
+              <img class="project-img" src="/Users/joshualim/Documents/CS1300/Josh-portfolio/cart/perfume-website.png">
+            </div>
+          </a>
+          <a href="/Users/joshualim/Documents/CS1300/Josh-portfolio/skincarisma/skincarisma.html" class= "projects skincarisma"> 
+            <div class="project-header">
+              <h2>Skin Carisma Redesign</h2>
+              <p class="project-para">Responsive Redesign • HTML/CSS</p>
+            </div>
+            <div>
+              <img class="project-img" src="/Users/joshualim/Documents/CS1300/Josh-portfolio/skincarisma/mac-skincarisma.png">
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="contact-me">
+      <div class="section-contact-me">
+        <h1 class="end-section-thanks">Thanks for viewing my portfolio. </h1>
+        <p class="end-section-notes"> Made in <> by me</p>
+      </div>
+      <div class="contact-me-links-bottom">
+          <a href="#" class="fa fa-facebook fa-2x"></a>
+          <a href="#" class="fa fa-twitter fa-2x"></a>
+      </div>
+    </div>
+
+  <script>
+    const texts = [
+      "Making Funky Websites",
+      "Designing Awesome Interfaces",
+      "Building Creative Solutions"
+    ];
+
+    let index = 0;
+    const typingTextElement = document.getElementById("typing-text");
+
+    function typeText() {
+      const text = texts[index];
+      typingTextElement.innerHTML = ''; // Clear existing text
+      let charIndex = 0;
+      const typingInterval = setInterval(function() {
+        if (charIndex < text.length) {
+          typingTextElement.innerHTML += text.charAt(charIndex);
+          charIndex++;
+        } else {
+          clearInterval(typingInterval); // Stop typing when finished
+          setTimeout(typeNextText, 2000); // Move to next text after a delay
+        }
+      },80); // Typing speed
+    }
+
+    function typeNextText() {
+      index = (index + 1) % texts.length; // Move to the next text (cycle through texts)
+      typeText(); // Start typing the next text
+    }
+
+    // Start typing the first text
+    typeText();
+  </script>
+ 
+</body>
+</html>
