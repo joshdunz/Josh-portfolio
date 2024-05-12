@@ -306,6 +306,11 @@ display: block;
   
   }
   
+  .contact-me a {
+    color: rgb(255, 255, 255); /* Set color to black */
+    text-decoration: none; /* Remove underline */
+  }
+  
   
   .contact-me-links-bottom{
     display: flex;

@@ -304,6 +304,11 @@ display: block;
     align-items: flex-end;
     padding-bottom: 65px;
   }
+
+  .contact-me a{
+    color: rgb(255, 255, 255); 
+    text-decoration: none; 
+  }
   
   .fa {
     padding: 10px;
