@@ -84,7 +84,6 @@ ol {
     font-weight: 300;
     line-height: 30px;
     padding-left: 0.4rem;
-    /* margin-top: 0.5rem; */
 }
 
 li{
@@ -255,6 +254,9 @@ display: block;
 }
 
 .feature{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
     width: 60rem;
     padding-top: 4rem;
 }
@@ -279,8 +281,8 @@ display: block;
 
 .pain-point{
     width: 25rem;
-    padding-right: 3rem;
-    padding-bottom: 3rem;
+    /* padding-right: 3rem; */
+    padding-bottom: 2rem;
 }
 
 .solution{
@@ -326,7 +328,11 @@ display: block;
 }
 
 .feature1-demo{
+    display: flex;
+    flex-direction: column;
     width: 900px;
+    justify-content: center;
+
 }
 .feature1-demo img{
     width: 95%;
@@ -337,6 +343,7 @@ display: block;
     display: flex;
     flex-direction: column;
     padding-bottom: 3rem;
+    justify-content: center;
 }
 
 .video-background{
