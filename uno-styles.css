@@ -396,6 +396,15 @@ display: block;
     background-color:#112b6f ;
 }
 
+.end-section-thanks{
+    font-family: 'Quattrocento', serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 5px;
+    margin-top: 33.5px;
+  }
+
 
 .contact-me{
     display: flex;
