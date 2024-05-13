@@ -251,6 +251,9 @@ display: block;
     color: #d1d1d1;
 }
 
+.info-para1{
+    color: #000000;
+}
 .feature1-section{
     display: flex;
     background-color: white;
