@@ -153,13 +153,14 @@ display: block;
 }
 
 .summary.left{
-    width: 40rem;
+    width: 45rem;
     margin: 0 3rem;
 }
 
 .objective-bloc{
     display:flex;
     flex-direction: row;
+    justify-content: space-between ;
 }
 
 .bloc{
