@@ -184,9 +184,12 @@ display: block;
     justify-content: center;
     background-color: rgb(255, 255, 255);
     color: #000000;
-    padding-top: 7rem;
+    padding-top: 3rem;
     padding-bottom: 7rem;
 
+}
+.reflection-h1{
+    padding-top: 2rem;
 }
 
 .process-container{
@@ -294,6 +297,10 @@ display: block;
     font-weight: 300;
 }
 
+.reflection-container video{
+    width: 100%;
+    padding-top: 1.5rem;
+}
 
 .contact-me{
     display: flex;

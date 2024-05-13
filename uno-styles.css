@@ -399,8 +399,8 @@ display: block;
     flex-direction: row;
     justify-content: space-around;
     height: 30rem;
-    background-color: #000000;
-    color:#EAEAEA;
+    background-color: #ffffff;
+    color:#000000;
   }
   
   .section-contact-me{
@@ -412,7 +412,7 @@ display: block;
   }
 
   .contact-me a {
-    color: rgb(255, 255, 255); /* Set color to black */
+    color: rgb(0, 0, 0); /* Set color to black */
     text-decoration: none; /* Remove underline */
   }
   
@@ -430,7 +430,7 @@ display: block;
     width: 50px;
     text-align: center;
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
   }
   
 
