@@ -28,6 +28,25 @@
   font-style: normal;
 }
 
+.sticky-nav {
+  position: fixed;
+  top: 0;
+  width: 93%;
+  background-color: #ffffff; 
+  z-index: 1000;
+}
+
+.nav{
+  padding: 30px 50px;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+
 .left{
   font-weight:500;
 }
@@ -79,7 +98,7 @@ nav a {
 
 .top-section {
   display: flex;
-  padding-top: 6rem; 
+  padding-top: 10rem; 
   justify-content: center;
   padding-bottom: 7rem;
 }

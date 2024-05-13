@@ -247,9 +247,15 @@ display: block;
     padding-right: 2rem;
 }
 
+.demo-bloc {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-end;
+}
+
 
 .demo-bloc.one{
-    background-color:#80A1f8 ;
+    background-color:#266CA9 ;
 }
 
 .demo-bloc video{
